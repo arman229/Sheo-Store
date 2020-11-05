@@ -2,31 +2,20 @@
     display: none;
     background-color: aquamarine;
 }
+body{
+    overflow: auto;
+background-color: #f2f2f2;
+}
 li a {
     display: block;
     color: white;
     text-align: center;
+    box-sizing: border-box;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-/*a:link {
-    background-color: red;
-}*/
-
-/* visited link */
-/*a:visited {
-    background-color: green;
-}*/
-
-/* mouse over link */
 a:hover {
-    background-color: darkblue;
-}
+    border-bottom: 4px solid red;
 
-/* selected link */
-/*
-a:active {
-    background-color: yellow;
 }
- */

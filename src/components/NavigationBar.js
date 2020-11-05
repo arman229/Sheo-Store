@@ -11,7 +11,6 @@ function NavigationBar() {
         title: {
             marginLeft: "8%",
             flex:0.8
-
         },
         ul: {
             listStyleType: "none",
@@ -23,7 +22,9 @@ function NavigationBar() {
             float: "left"
         },
         aActive:{
-            backgroundColor:"darkBlue",
+            borderBottomColor: "red",
+            borderBottomWidth: 4,
+            borderBottomStyle: "solid"
         }
     }));
     const styles = useStyles();
