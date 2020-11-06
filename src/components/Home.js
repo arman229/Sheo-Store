@@ -49,7 +49,7 @@ function Home() {
             <Grid container spacing={10}>
                 <Grid item xs={12} sm={4} md={4}>
                     <Card>
-                        <CardActionArea component={Link} to="/kids">
+                        <CardActionArea component={Link} to="/mens">
                             <CardMedia
                                 className={classes.media}
                                 image="https://image.made-in-china.com/202f0j00KwjTMPZdQGrm/Mens-Shoes-Loafer-Casual-Leather-Suede-Shoes-Men-s-Loafer-Shoes.jpg"
@@ -63,7 +63,7 @@ function Home() {
                 </Grid>
                 <Grid item xs={12} sm={4} md={4}>
                     <Card>
-                        <CardActionArea component={Link} to="/kids">
+                        <CardActionArea component={Link} to="/womens">
                             <CardMedia
                                 className={classes.media}
                                 image="https://www.unze.com.pk/media/catalog/product/cache/1/thumbnail/600x600/9df78eab33525d08d6e5fb8d27136e95/L/2/L29996.jpg"
